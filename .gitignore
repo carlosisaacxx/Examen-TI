@@ -1,0 +1,48 @@
+# .NET 8
+# -----------------------
+# Binarios generados
+bin/
+obj/
+
+# Paquetes NuGet
+*.nuget.props
+*.paket.props
+*.paket.targets
+**/packages/*
+!**/packages/*.config
+
+# Exclusiones específicas para proyectos de .NET Core
+# Recomendado si estás utilizando Visual Studio o Rider
+
+# Directorio de salida de Visual Studio
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Nn][Yy]/
+
+# Directorio de salida de Visual Studio Code
+.vscode/
+.vs/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Respaldo de Visual Studio Code
+*.vscode/
+
+# Carpeta del IDE Jetbrains Rider
+.idea/
+
+# Archivos de respaldo y caché
+*~
+*.swp
+*.bak
+
+# Otros
+Thumbs.db
+desktop.ini
+PublishProfiles/
