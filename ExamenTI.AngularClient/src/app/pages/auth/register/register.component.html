@@ -1,0 +1,17 @@
+<div class="d-register">
+    <h2>Registrate</h2>
+    <p>Formulario para registro y previo acceso al cliente</p>
+    <div class="form-group">
+        <label for="email">Usuario:</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="example@test.com"/>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="ABC123">
+    </div>
+    <div class="d-flex flex-row justify-content-end">
+        <button class="btn btn-primary btn-md mr-3" (click)="createUser()">Crear</button>
+        <button class="btn btn-secondary btn-md">Limpiar</button>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="modal-header">
+  <h4 mat-dialog-title>{{ data.type }}</h4>
+</div>
+<div class="modal-body">
+  <p>{{ data.message }}</p>
+  <mat-icon *ngIf="data.type === 'success'" style="color: green;">check_circle</mat-icon>
+  <mat-icon *ngIf="data.type === 'error'" style="color: red;">error</mat-icon>
+  <mat-icon *ngIf="data.type === 'question'" style="color: blue;">help</mat-icon>
+  <mat-icon *ngIf="data.type === 'warning'" style="color: orange;">warning</mat-icon>
+</div>
+<div class="modal-footer">
+  <button mat-button (click)="onClose()">Close</button>
+</div>
